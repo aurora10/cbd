@@ -1,0 +1,521 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('typographies/cbdfx-icons/cbdfx-iconsf3ab.eot?ftqy0v');
+    src: url('typographies/cbdfx-icons/cbdfx-iconsf3ab.eot?ftqy0v#iefix') format('embedded-opentype'),
+    url('typographies/cbdfx-icons/cbdfx-iconsf3ab.ttf?ftqy0v') format('truetype'),
+    url('typographies/cbdfx-icons/cbdfx-iconsf3ab.woff?ftqy0v') format('woff'),
+    url('typographies/cbdfx-icons/cbdfx-iconsf3ab.svg?ftqy0v#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-bear-icon-youtube .path1:before {
+    content: "\e914";
+    color: rgb(55, 53, 53);
+}
+
+.icon-bear-icon-youtube .path2:before {
+    content: "\e915";
+    margin-left: -1.2939453125em;
+    color: rgb(55, 53, 53);
+}
+
+.icon-bear-icon-pinterest:before {
+    content: "\e916";
+    color: #373535;
+}
+
+.icon-bear-icon-twitter:before {
+    content: "\e917";
+    color: #373535;
+}
+
+.icon-bear-icon-facebook:before {
+    content: "\e918";
+    color: #373535;
+}
+
+.icon-bear-icon-phone:before {
+    content: "\e919";
+    color: #373535;
+}
+
+.icon-bear-icon-cart:before {
+    content: "\e900";
+    color: #292929;
+}
+
+.icon-bear-icon-user:before {
+    content: "\e901";
+    color: #2e2f2f;
+}
+
+.icon-bear-icon-search:before {
+    content: "\e902";
+    color: #292929;
+}
+
+.icon-bear-icon-arroba:before {
+    content: "\e91a";
+    color: #373535;
+}
+
+.icon-bear-icon-instagram .path1:before {
+    content: "\e903";
+    color: rgb(55, 53, 53);
+}
+
+.icon-bear-icon-instagram .path2:before {
+    content: "\e904";
+    margin-left: -1em;
+    color: rgb(55, 53, 53);
+}
+
+.icon-bear-icon-instagram .path3:before {
+    content: "\e905";
+    margin-left: -1em;
+    color: rgb(55, 53, 53);
+}
+
+.icon-bear-icon-solvent-free:before {
+    content: "\e906";
+}
+
+.icon-bear-icon-30-days:before {
+    content: "\e907";
+}
+
+.icon-bear-icon-natural:before {
+    content: "\e908";
+}
+
+.icon-bear-icon-leaves:before {
+    content: "\e909";
+}
+
+.icon-bear-icon-cruelty-free:before {
+    content: "\e90a";
+}
+
+.icon-bear-icon-boxes:before {
+    content: "\e90b";
+}
+
+.icon-bear-icon-verified-potency:before {
+    content: "\e90c";
+}
+
+.icon-bear-icon-usa-made:before {
+    content: "\e90d";
+}
+
+.icon-bear-icon-clock:before {
+    content: "\e90e";
+}
+
+.icon-bear-icon-science-leaves:before {
+    content: "\e90f";
+}
+
+.icon-bear-icon-zoom-leaves:before {
+    content: "\e910";
+}
+
+.icon-bear-icon-test-tube:before {
+    content: "\e911";
+}
+
+.icon-bear-icon-test-tube2:before {
+    content: "\e912";
+}
+
+.icon-bear-icon-delivery:before {
+    content: "\e913";
+}
+
+.icon-facebook:before {
+    content: "\ea90";
+}
+
+.icon-instagram:before {
+    content: "\ea92";
+}
+
+.icon-twitter:before {
+    content: "\ea96";
+}
+
+.icon-pinterest:before {
+    content: "\ead1";
+}
+
+@font-face {
+    font-family: 'GothamBook';
+    src: url('typographies/woff2/GothamSSm-Book_Web.woff2') format('woff2'),
+    url('typographies/woff/GothamSSm-Book_Web.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GothamBold';
+    src: url('typographies/woff2/GothamSSm-Bold_Web.woff2') format('woff2'),
+    url('typographies/woff/GothamSSm-Bold_Web.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+body * {
+    font-family: -apple-system, BlinkMacSystemFont, "GothamBook", Arial;
+    color: #333333;
+}
+
+body h3 {
+    font-weight: normal !important;
+}
+
+#cfw-header {
+    background: #F4F4F4;
+}
+
+body.futurist .cfw-logo .logo {
+    margin: 0 !important;
+    width: 100%;
+    height: 60px;
+    background-size: 83px;
+    background-position: 10px 15px !important;
+}
+
+body.futurist .cfw-logo .logo:after {
+    content: 'CHECKOUT';
+    font-size: 20px;
+    line-height: 60px;
+    color: #333333;
+    position: relative;
+    left: 24px;
+}
+
+body.futurist #cfw-breadcrumb:after {
+    background: #396886 !important;
+    height: 2px !important;
+    top: 9px !important;
+    width: 80% !important;
+}
+
+body.futurist #cfw-breadcrumb li {
+    background: none !important;
+}
+
+body.futurist #cfw-breadcrumb li.active ~ li:before {
+    background: #ffffff !important;
+}
+
+body.futurist #cfw-breadcrumb li > a {
+    color: #396886 !important;
+    font-weight: bold !important;
+}
+
+body.futurist #cfw-breadcrumb li:before {
+    background: #396886 !important;
+    border: 2px solid #396886 !important;
+}
+
+body.futurist #cfw-cart-summary {
+    background: #ffffff !important;
+    border-top: 1px solid #cccccc !important;
+    border-bottom: 1px solid #cccccc !important;
+    color: #333333 !important;
+}
+
+#cfw-mobile-cart-header #cfw-expand-cart {
+    color: #333333 !important;
+    font-size: 18px !important;
+}
+
+#cfw-mobile-cart-header #cfw-expand-cart #arrow {
+    fill: #333333 !important;
+    width: 27px !important;
+    height: 30px !important;
+    position: relative;
+    top: -4px;
+}
+
+.cfw-primary-btn {
+    text-transform: uppercase !important;
+    font-weight: bold !important;
+    border-radius: 30px !important;
+    font-size: 18px !important;
+    letter-spacing: 1px !important;
+}
+
+#cfw-customer-info > h3:before {
+    content: 'ACCOUNT '
+}
+
+#shipping_first_name_field, #shipping_last_name_field {
+    width: 50%;
+}
+
+main.checkoutwc .cfw-bottom-controls .cfw-primary-btn, main.checkoutwc .place-order .cfw-primary-btn {
+    background: #396886;
+}
+
+#cfw-payment-method-address-review, #cfw-shipping-method-address-review {
+    border: none;
+}
+
+#cfw-payment-method-address-review li:not(:last-child) > div, #cfw-shipping-method-address-review li:not(:last-child) > div {
+    border: none;
+}
+
+#coupons_list{
+    display:none !important;
+}
+
+#cfw-footer {
+    display: none;
+}
+
+.shipping-details-label {
+    text-transform: uppercase;
+    font-size: 20px;
+    width: 100%;
+    display: block;
+}
+
+.cfw-shipping-methods-list, .wc_payment_methods, .cfw-radio-reveal-group {
+    border: none !important;
+}
+
+#cfw-billing-fields-container {
+    border: none;
+    background: #ffffff;
+}
+
+.cfw-prev-tab {
+    color: #396886;
+}
+
+#cfw-mobile-cart-header {
+    padding-bottom: 14px;
+}
+
+.bear-already-account {
+    font-family: 'GothamBold';
+    margin-bottom: 20px !important;
+}
+
+.bear-already-account a {
+    color: #396886;
+    font-family: 'GothamBold';
+    text-decoration: underline;
+}
+
+#cfw-shipping-info-action .previous-button, #cfw-shipping-action .previous-button, #cfw-payment-action .previous-button {
+    margin-top: 20px;
+}
+
+#cfw-login-details .cfw-have-acc-text span{
+    font-weight: bold;
+}
+body.checkout-wc a, main.checkoutwc a{
+    color: #396886;
+}
+.cfw-floating-label #cfw-login-btn{
+    margin: auto auto 15px auto;
+    display: table;
+    border-radius: 50px;
+    padding: 12px 30px;
+    background: #333;
+}
+.cfw-floating-label #cfw-login-btn:hover{
+    opacity: 0.7;
+}
+.cfw-floating-label #cfw-login-btn:focus{
+    outline: initial;
+}
+.cfw-floating-label .login-optional{
+    display: block;
+}
+
+.bear-box-login {
+    display: none;
+}
+
+.bear-box-login .form-group {
+    margin-bottom: 15px;
+}
+
+.bear-box-login .form-group input[type="email"], .bear-box-login .form-group input[type="password"] {
+    width: 100%;
+    height: 50px;
+    padding-left: 15px;
+}
+
+.bear-box-login .form-group button {
+    display: table;
+    padding: 10px 40px;
+    border-radius: 30px;
+    color: #fff;
+    background-color: #333333;
+    border: none;
+    margin: auto;
+    font-size: 18px;
+}
+
+.bear-box-login hr {
+    margin: 25px 0;
+}
+
+#cfw-payment-method-address-review li .inner, #cfw-shipping-method-address-review li .inner {
+    display: block;
+}
+
+#cfw-payment-method-address-review li .shipping-details-label, #cfw-shipping-method-address-review li .shipping-details-label {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.shipping-details-link {
+    display: flex;
+}
+
+.shipping-details-link a {
+    margin-top: auto;
+    color: #396886 !important;
+    text-decoration: underline !important;
+}
+
+#cfw-shipping-method-address-review {
+    border-bottom: solid 1px #ccc;
+    padding-bottom: 15px;
+    border-radius: 0;
+}
+
+.cfw-promo-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cfw-promo-row .no-gutters::before {
+    content: 'PROMO CODE';
+    font-family: -apple-system, BlinkMacSystemFont, "GothamBook", Arial;
+    font-size: 1.5em;
+    display: block;
+    padding-bottom: 15px;
+}
+
+#cfw-coupons-mobile > h3 + .cfw-promo-row .no-gutters::before {
+    display: none;
+}
+
+.cfw-promo-row > div {
+    width: calc(100% - 136px);
+    margin: 0;
+}
+
+.cfw-input-wrap-row > [class*=col-]:not(:last-child) {
+    margin-bottom: 0;
+}
+
+.cfw-promo-row > div:last-child {
+    width: 136px;
+    display: flex;
+}
+
+.cfw-promo-row > div:last-child > div {
+    margin-top: auto;
+    width: 100%;
+}
+
+.cfw-promo-row > div:last-child input[type="button"] {
+    border-radius: 30px;
+    background-color: #333333;
+    color: #fff;
+}
+
+#cfw-coupons {
+    margin: 30px 0 !important;
+    padding-top: 30px !important;
+    padding-bottom: 20px;
+}
+
+li.shipping-method {
+    padding: 20px 0 !important;
+    border-bottom: solid 1px #ccc;
+    border-top: solid 1px #ccc;
+    margin: 20px 0;
+}
+
+#cfw-coupons-mobile, #cfw-billing-methods {
+    padding: 0 0 20px 0 !important;
+    border-bottom: solid 1px #ccc;
+    /* border-top: solid 1px #ccc; */
+    margin: 0 0 20px 0;
+}
+
+#cfw-shipping-method-list ul li, #cfw-shipping-same-billing ul li {
+    border: none;
+}
+.address-field > div{
+    margin-bottom: .8em !important;
+}
+.address-field > div:last-child{
+    margin-bottom: 0 !important;
+}
+
+
+@media only screen and (min-width:992px){
+    body.futurist #cfw-cart-summary {
+        border:0 !important;
+    }
+}
+
+.sv-wc-payment-gateway-payment-form-manage-payment-methods{display:none !important;}
+/*.kl_newsletter_checkbox_field{display:none !important;}*/
+.tippy-content{color: white !important;}
+.parsley-errors-list li{font-weight:bold;color:#f00;}
+.cfw-logo .logo{max-width: 100% !important;}
+.cfw-logo .logo::after{left:0 !important;}
+#cfw-payment-method-address-review li, #cfw-shipping-method-address-review li{padding:0 !important;}
+
+.cbdfx-checkout-cross-sell-wrapper{
+    border:4px dashed #46cffb;
+    margin-top:20px;
+    padding:0 !important;
+}
+
+.cbdfx-checkout-cross-sell-single-item--title{
+    background-color:#ddf6ff;
+    color:#000;
+    font-size:20px;
+    display:block;
+    clear:both;
+    width:100%;
+}
+
+.cbdfx-checkout-cross-sell-single-item--core{
+    display: flex;
+}
+
+.cbdfx-checkout-cross-sell-single-item--product-content-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}

@@ -1,0 +1,448 @@
+@keyframes button-effect-animation {
+  0% {
+    width: 0px;
+    height: 0px;
+    opacity: 0.3; }
+  100% {
+    width: 500px;
+    height: 500px;
+    opacity: 0; } }
+
+#bear-container-medical-advisor .description {
+  text-align: center; }
+
+#bear-container-medical-advisor .slider-home-medical-advisory {
+  margin-top: 50px;
+  padding: 0; }
+  @media (min-width: 576px) {
+    #bear-container-medical-advisor .slider-home-medical-advisory {
+      padding: 0 50px; } }
+  @media (min-width: 768px) {
+    #bear-container-medical-advisor .slider-home-medical-advisory {
+      padding: 0 100px; } }
+  #bear-container-medical-advisor .slider-home-medical-advisory .slick-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px; }
+    #bear-container-medical-advisor .slider-home-medical-advisory .slick-arrow.prev-arrow {
+      left: 0; }
+    #bear-container-medical-advisor .slider-home-medical-advisory .slick-arrow.next-arrow {
+      right: 0; }
+
+#bear-container-medical-advisor .content-button-all {
+  margin: 50px 0; }
+  #bear-container-medical-advisor .content-button-all button {
+    margin: auto;
+    display: table; }
+
+#bear-medical-advisory-category .banner-top {
+  background: #F7F7F7;
+  padding: 30px 40px; }
+  @media (min-width: 576px) {
+    #bear-medical-advisory-category .banner-top {
+      padding: 50px 80px; } }
+  #bear-medical-advisory-category .banner-top .stamp {
+    width: 180px;
+    margin: auto; }
+  #bear-medical-advisory-category .banner-top .banner-text h3 {
+    color: #396886;
+    font-family: "GothamBold", Arial, sans-serif;
+    font-size: 25px;
+    line-height: 33px;
+    margin-bottom: 50px;
+    margin-top: 50px; }
+    @media (min-width: 576px) {
+      #bear-medical-advisory-category .banner-top .banner-text h3 {
+        margin-top: 0; } }
+  #bear-medical-advisory-category .banner-top .banner-text p {
+    color: #333;
+    font-family: "GothamBook", Arial, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 30px; }
+  #bear-medical-advisory-category .banner-top .banner-text .dis-table {
+    display: table;
+    margin: auto; }
+    @media (min-width: 576px) {
+      #bear-medical-advisory-category .banner-top .banner-text .dis-table {
+        margin: 0; } }
+    #bear-medical-advisory-category .banner-top .banner-text .dis-table .card-medical {
+      flex-wrap: wrap;
+      width: auto;
+      margin: auto; }
+      #bear-medical-advisory-category .banner-top .banner-text .dis-table .card-medical .content-image {
+        width: 70px;
+        height: 70px;
+        overflow: hidden;
+        position: relative;
+        border-radius: 50%;
+        margin: auto; }
+        @media (min-width: 576px) {
+          #bear-medical-advisory-category .banner-top .banner-text .dis-table .card-medical .content-image {
+            margin: auto 0; } }
+        #bear-medical-advisory-category .banner-top .banner-text .dis-table .card-medical .content-image img {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          min-width: 120%;
+          width: 150%;
+          transform: translate(-50%, -50%); }
+      #bear-medical-advisory-category .banner-top .banner-text .dis-table .card-medical .name {
+        width: 100%;
+        padding-left: 0;
+        margin: auto;
+        text-align: center; }
+        @media (min-width: 576px) {
+          #bear-medical-advisory-category .banner-top .banner-text .dis-table .card-medical .name {
+            padding-left: 10px;
+            text-align: left;
+            margin: auto 0;
+            width: auto; } }
+        #bear-medical-advisory-category .banner-top .banner-text .dis-table .card-medical .name a {
+          color: #333;
+          text-decoration: underline; }
+          #bear-medical-advisory-category .banner-top .banner-text .dis-table .card-medical .name a h4 {
+            color: #333;
+            font-family: "GothamBook", Arial, sans-serif;
+            font-size: 16px;
+            line-height: 22px; }
+        #bear-medical-advisory-category .banner-top .banner-text .dis-table .card-medical .name p {
+          color: #000;
+          font-family: "GothamBook", Arial, sans-serif;
+          font-size: 13px;
+          line-height: 13px;
+          margin: 0; }
+
+#bear-medical-advisory-product {
+  padding: 20px;
+  background: #F7F7F7;
+  display: grid;
+  grid-template-columns: 100%;
+  margin-bottom: 55px; }
+  @media (min-width: 768px) {
+    #bear-medical-advisory-product {
+      margin-bottom: 0; } }
+  @media (min-width: 576px) {
+    #bear-medical-advisory-product {
+      padding: 50px;
+      grid-template-columns: 25% 75%; } }
+  #bear-medical-advisory-product > div:first-child h3 {
+    display: block;
+    color: #333;
+    font-family: "GothamBook", Arial, sans-serif;
+    font-size: 21px;
+    line-height: 29px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    text-align: center; }
+    @media (min-width: 576px) {
+      #bear-medical-advisory-product > div:first-child h3 {
+        display: none; } }
+  #bear-medical-advisory-product .text {
+    color: #333;
+    font-family: "GothamBook", Arial, sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    display: flex; }
+    @media (min-width: 576px) {
+      #bear-medical-advisory-product .text {
+        padding-left: 20px;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: left; } }
+    #bear-medical-advisory-product .text > div {
+      margin: auto 0; }
+      #bear-medical-advisory-product .text > div h3 {
+        color: #333;
+        font-family: "GothamBook", Arial, sans-serif;
+        font-size: 21px;
+        line-height: 29px;
+        text-transform: uppercase;
+        margin-bottom: 40px;
+        display: none; }
+        @media (min-width: 576px) {
+          #bear-medical-advisory-product .text > div h3 {
+            display: block; } }
+      #bear-medical-advisory-product .text > div p {
+        font-size: 15px;
+        line-height: 25px; }
+      #bear-medical-advisory-product .text > div #reviewCollapse.collapse:not(.show) {
+        display: block;
+        height: 7.5rem;
+        overflow: hidden; }
+        #bear-medical-advisory-product .text > div #reviewCollapse.collapse:not(.show) .short-review {
+          display: block; }
+        #bear-medical-advisory-product .text > div #reviewCollapse.collapse:not(.show) .full-review {
+          display: none; }
+      #bear-medical-advisory-product .text > div #reviewCollapse.collapse.show .short-review, #bear-medical-advisory-product .text > div #reviewCollapse.collapsing .short-review {
+        display: none; }
+      #bear-medical-advisory-product .text > div #reviewCollapse.collapse.show .full-review, #bear-medical-advisory-product .text > div #reviewCollapse.collapsing .full-review {
+        display: block; }
+      #bear-medical-advisory-product .text > div #reviewCollapse.collapsing {
+        height: 7.5rem; }
+      #bear-medical-advisory-product .text > div a {
+        font-size: 15px; }
+        #bear-medical-advisory-product .text > div a.collapsed::after {
+          content: 'Show More'; }
+        #bear-medical-advisory-product .text > div a:not(.collapsed)::after {
+          content: 'Show Less'; }
+  #bear-medical-advisory-product .dis-table {
+    display: table;
+    margin: auto auto 20px auto; }
+    #bear-medical-advisory-product .dis-table .card-medical {
+      flex-wrap: wrap;
+      width: auto;
+      margin: auto; }
+      #bear-medical-advisory-product .dis-table .card-medical .content-image {
+        width: 152px;
+        height: 152px;
+        overflow: hidden;
+        position: relative;
+        border-radius: 50%;
+        margin: auto auto 20px auto; }
+        #bear-medical-advisory-product .dis-table .card-medical .content-image img {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          min-width: 120%;
+          width: 150%;
+          transform: translate(-50%, -50%); }
+      #bear-medical-advisory-product .dis-table .card-medical .name {
+        width: 100%;
+        padding-left: 0;
+        margin: auto;
+        text-align: center; }
+        @media (min-width: 576px) {
+          #bear-medical-advisory-product .dis-table .card-medical .name {
+            width: auto; } }
+        #bear-medical-advisory-product .dis-table .card-medical .name a {
+          text-decoration: underline;
+          color: #333; }
+          #bear-medical-advisory-product .dis-table .card-medical .name a h4 {
+            color: #333;
+            font-family: "GothamBook", Arial, sans-serif;
+            font-size: 20px;
+            line-height: 24px; }
+        #bear-medical-advisory-product .dis-table .card-medical .name p {
+          color: #333;
+          font-family: "GothamBook", Arial, sans-serif;
+          font-size: 16px;
+          line-height: 16px;
+          margin: 0; }
+
+#bear-medical-advisory-page .h2 {
+  font-family: "GothamBold", Arial !important;
+  text-transform: uppercase;
+  color: #396886;
+  font-size: 21px;
+  position: relative;
+  margin-bottom: 48px;
+  text-align: center; }
+  @media (min-width: 768px) {
+    #bear-medical-advisory-page .h2 {
+      font-size: 30px; } }
+  #bear-medical-advisory-page .h2::before {
+    content: "";
+    display: block;
+    width: 58px;
+    height: 3px;
+    background: #396886;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%); }
+
+#bear-medical-advisory-page .bear-container-fluid {
+  text-align: center; }
+  #bear-medical-advisory-page .bear-container-fluid .container-members {
+    padding: 30px 30px 0 30px;
+    justify-content: center; }
+    @media (min-width: 768px) {
+      #bear-medical-advisory-page .bear-container-fluid .container-members {
+        padding: 30px 0 0 0; } }
+    #bear-medical-advisory-page .bear-container-fluid .container-members .slide-medical-advisory {
+      margin-bottom: 90px; }
+
+#bear-single-medical-advisory-page .container-image {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 50%;
+  margin: 50px auto 15px auto; }
+  @media (min-width: 768px) {
+    #bear-single-medical-advisory-page .container-image {
+      margin: 30px auto 15px auto; } }
+  #bear-single-medical-advisory-page .container-image img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 120%;
+    width: 150%;
+    transform: translate(-50%, -50%); }
+
+#bear-single-medical-advisory-page hr.cbdfx-bigger-hr {
+  margin-top: 40px !important;
+  margin-bottom: 40px !important; }
+
+#bear-single-medical-advisory-page .name h1 {
+  color: #333;
+  font-family: "GothamBold", Arial !important;
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: initial; }
+
+#bear-single-medical-advisory-page .bio {
+  width: 100%;
+  margin: auto; }
+  @media (min-width: 768px) {
+    #bear-single-medical-advisory-page .bio {
+      width: 70%; } }
+
+#medical-products-reviewed {
+  text-align: center; }
+  #medical-products-reviewed .h2 {
+    font-family: "GothamBold", Arial !important;
+    text-transform: uppercase;
+    color: #396886;
+    font-size: 21px;
+    position: relative;
+    margin-bottom: 48px;
+    text-align: center; }
+    @media (min-width: 768px) {
+      #medical-products-reviewed .h2 {
+        font-size: 30px; } }
+    #medical-products-reviewed .h2::before {
+      content: "";
+      display: block;
+      width: 58px;
+      height: 3px;
+      background: #396886;
+      position: absolute;
+      bottom: -20px;
+      left: 50%;
+      transform: translateX(-50%); }
+  #medical-products-reviewed > .row {
+    margin-top: 50px; }
+  #medical-products-reviewed .related-product {
+    margin-bottom: 50px; }
+    #medical-products-reviewed .related-product .image {
+      margin-bottom: 15px; }
+    #medical-products-reviewed .related-product .name h3 {
+      margin: 0;
+      text-transform: initial; }
+
+.slide-medical-advisory {
+  padding: 0; }
+  @media (min-width: 576px) {
+    .slide-medical-advisory {
+      padding: 0 20px; } }
+  @media (min-width: 768px) {
+    .slide-medical-advisory {
+      padding: 0 60px; } }
+  .slide-medical-advisory .container-image {
+    width: 218px;
+    height: 218px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 50%;
+    margin: 0 auto 19px auto; }
+    .slide-medical-advisory .container-image img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      min-width: 120%;
+      width: 150%;
+      transform: translate(-50%, -50%); }
+  .slide-medical-advisory .content-button button {
+    margin: auto;
+    position: relative;
+    display: table;
+    border-color: #396886;
+    background: #fff; }
+    .slide-medical-advisory .content-button button a {
+      color: #396886; }
+  .slide-medical-advisory h3 {
+    color: #333;
+    font-family: "GothamBold", Arial !important;
+    font-size: 20px;
+    line-height: 20px;
+    text-transform: none;
+    font-weight: bold;
+    text-align: center; }
+    @media (min-width: 768px) {
+      .slide-medical-advisory h3 {
+        color: #333;
+        font-family: "GothamBold", Arial !important;
+        font-size: 20px;
+        line-height: 20px;
+        font-weight: bold; } }
+  .slide-medical-advisory p {
+    text-align: center;
+    color: #333;
+    font-family: "GothamBook", Arial !important;
+    font-size: 15px;
+    line-height: 24px; }
+    .slide-medical-advisory p.job-title {
+      text-align: center;
+      margin: 5px 0;
+      font-size: 16px; }
+    .slide-medical-advisory p.short-bio {
+      min-height: 100px; }
+
+.blue-box-title {
+  background: #396886;
+  padding: 30px 50px; }
+  .blue-box-title .stamp {
+    width: 100px;
+    margin: auto auto auto 0; }
+    .blue-box-title .stamp img {
+      width: 100%; }
+  .blue-box-title .title-text {
+    margin: auto 0 auto auto; }
+    .blue-box-title .title-text h1, .blue-box-title .title-text .h1 {
+      margin: 0;
+      color: #fff; }
+
+.cbdfx-product-medically-reviewed .product_title {
+  width: 80%; }
+
+.cbdfx-medical-advisor-stamp {
+  position: absolute;
+  right: 32px; }
+  @media (min-width: 768px) {
+    .cbdfx-medical-advisor-stamp {
+      right: 0; } }
+  .cbdfx-medical-advisor-stamp .stamp {
+    width: 68px; }
+
+.author-blogs {
+  text-align: center; }
+  .author-blogs .bear-card {
+    margin-bottom: 1.5em; }
+
+.meet-the-authors-link {
+  position: relative;
+  margin-bottom: 48px;
+  text-align: center; }
+  .meet-the-authors-link a {
+    font-family: "GothamBold", Arial !important;
+    text-transform: uppercase;
+    color: #396886;
+    font-size: 21px; }
+    @media (min-width: 768px) {
+      .meet-the-authors-link a {
+        font-size: 30px; } }
+  .meet-the-authors-link::before {
+    content: "";
+    display: block;
+    width: 58px;
+    height: 3px;
+    background: #396886;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%); }
